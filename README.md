@@ -29,3 +29,4 @@
   <br>
   <input type="number" name="result5">
 </form>
+<button>Click to fade box</button>
