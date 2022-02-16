@@ -1,5 +1,28 @@
+<script>
+function calculation()
+{
+    var num1, num2, num3, sum, avg, product, result;
 
-<form name="form">
+    num1 = parseInt(document.form.fnum1.value);
+    num2 = parseInt(document.form.fnum2.value);
+    num3 = parseInt(document.form.fnum3.value);
+
+    sum = num1 + num2 + num3;
+    avg = (num1 + num2 + num3)/3;
+    product = num1 * num2 * num3;
+    min = Math.min(num1, num2, num3);
+    max = Math.max(num1, num2, num3);
+
+    
+    document.form.result1.value = sum;
+    document.form.result2.value = avg;
+    document.form.result3.value = product;
+    document.form.result4.value = max;
+    document.form.result5.value = min;
+                                   
+}
+    </script>
+    <form name="form">
   Input a value
   <input type="number" name="fnum1">
   Input a value
@@ -29,4 +52,3 @@
   <br>
   <input type="number" name="result5">
 </form>
-<button>Click to fade box</button>
