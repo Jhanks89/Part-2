@@ -54,8 +54,8 @@
   <input type="number" name="result5">
 </form>
 <!-- Script for fading textbox -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<br>
 <script>
 $(document).ready(function(){
     $("button").click(function(){
