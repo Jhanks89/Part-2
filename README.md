@@ -58,9 +58,14 @@
 $(document).ready(function(){
   $("button").click(function(){
     $("#result1").fadeTo("slow", 0.15);
-    $("#result2").fadeTo("slow", 0.4);
-    $("#result3").fadeTo("slow", 0.7);
+    $("#result2").fadeTo("slow", 0.15);
+    $("#result3").fadeTo("slow", 0.15);
   });
 });
 </script>
-<button>Click to fade box</button>
+</head>
+<body>
+
+<p>Demonstrate fadeTo() with different parameters.</p>
+
+<button>Click to fade boxes</button><br><br>
