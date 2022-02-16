@@ -11,8 +11,10 @@
   <br>
  "The Sum of the 3 values are:"
   <br>
-  <input type="number" name="result1"><br>
- The Avgerage of the 3 values are: <br>
+  <input type="number" name="result1">
+  <br>
+ "The Avgerage of the 3 values are:" 
+  <br>
   <input type="number" name="result2">
   <br>
  "The Product of the 3 values are:" 
