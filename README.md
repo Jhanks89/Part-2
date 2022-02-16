@@ -1,5 +1,5 @@
 <script>
-function calculation()
+    function calculation()
 {
     var num1, num2, num3, sum, avg, product, result;
 
@@ -19,10 +19,11 @@ function calculation()
     document.form.result3.value = product;
     document.form.result4.value = max;
     document.form.result5.value = min;
-                                   
-}
-    </script>
-    <form name="form">
+    
+    }
+  </script>
+  <br>
+ <form name="form">
   Input a value
   <input type="number" name="fnum1">
   Input a value
