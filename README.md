@@ -55,16 +55,13 @@
 </form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-    $(document).ready(function(){
+$(document).ready(function(){
     $("button").click(function(){
-    $("#result1").fadeTo("slow", 0.15);
-    $("#result2").fadeTo("slow", 0.15);
-    $("#result3").fadeTo("slow", 0.15);
+        $("#result1").fadeTo("slow", 0.15);
+        $("#result2").fadeTo("slow", 0.15);
+        $("#result3").fadeTo("slow", 0.15);
   });
 });
 </script>
-</head>
-<body>
-
-
+<br>
 <button>Click to fade boxes</button><br><br>
