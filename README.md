@@ -1,10 +1,10 @@
 
 <form name="form">
-  " Input a value "
+  Input a value
   <input type="number" name="fnum1">
-  " Input a value "
+  Input a value
   <input type="number" name="fnum2">
-  " Input a value "
+  Input a value
   <input type="number" name="fnum3">
  <input type="button" value="submit" onclick="calculation()">
   <br>
