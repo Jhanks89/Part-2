@@ -53,3 +53,13 @@
   <br>
   <input type="number" name="result5">
 </form>
+<!-- Script for fading textbox -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#result1").fadeTo("slow", 0.15);
+    });
+});
+</script>
