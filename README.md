@@ -63,3 +63,4 @@ $(document).ready(function(){
     });
 });
 </script>
+<button>Click to fade box</button>
