@@ -66,6 +66,5 @@ $(document).ready(function(){
 </head>
 <body>
 
-<p>Demonstrate fadeTo() with different parameters.</p>
 
 <button>Click to fade boxes</button><br><br>
