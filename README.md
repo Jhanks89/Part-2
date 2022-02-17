@@ -62,6 +62,4 @@ $(document).ready(function(){
 });
 </script>
 <br>
-<button>Click to fade boxes</button>
-<br>
-<br>
+<button>Click to fade boxes</button><br><br>
