@@ -53,6 +53,7 @@
   <br>
   <input type="number" name="result5">
 </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
   $("button").click(function(){
@@ -61,4 +62,6 @@ $(document).ready(function(){
 });
 </script>
 <br>
-<button>Click to fade boxes</button><br><br>
+<button>Click to fade boxes</button>
+<br>
+<br>
