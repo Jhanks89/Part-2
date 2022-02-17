@@ -56,9 +56,9 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("#div1").fadeIn();
-    $("#div2").fadeIn("slow");
-    $("#div3").fadeIn(3000);
+    $("#result1").fadeIn();
+    $("#result2").fadeIn("slow");
+    $("#result3").fadeIn(3000);
   });
 });
 </script>
